@@ -9,7 +9,7 @@ const router = require('./routes');
 const { errorHandler, DataNotFound } = require('./middlewares/error');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
-const allowedCors = ['miasto-pl.students.nomoreparties.co'];
+const allowedCors = ['https://miasto-pl.students.nomoreparties.co'];
 
 const app = express();
 
