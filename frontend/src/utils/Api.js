@@ -79,7 +79,7 @@ class Api {
 const token = localStorage.getItem('jwt');
 
 const api = new Api({
-  url: "http://api.miasto-pl.students.nomoreparties.co",
+  url: "api.miasto-pl.students.nomoreparties.co",
   headers: {
     Authorization: `Bearer ${token}`,
     "content-type": "application/json",
