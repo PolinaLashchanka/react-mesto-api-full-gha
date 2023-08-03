@@ -9,8 +9,8 @@
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP-адрес 158.160.118.220
 
-Frontend https://...
+Frontend https://miasto-pl.students.nomoreparties.co
 
-Backend https://...
+Backend https://api.miasto-pl.students.nomoreparties.co
