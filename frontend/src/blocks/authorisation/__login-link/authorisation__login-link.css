@@ -1,0 +1,12 @@
+.authorisation__login-link {
+    color: white;
+    text-decoration: none;
+    margin: 15px 0 0;
+    font-size: 14px;
+    line-height: 17px;
+    transition: opacity 1s;
+}
+
+.authorisation__login-link:hover {
+    opacity: 0.6;
+}

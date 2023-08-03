@@ -1,0 +1,16 @@
+.profile {
+    padding: 0 19px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1080px) {
+    .profile {
+        flex-direction: row;
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 0;
+        justify-content: space-between;
+    }
+}

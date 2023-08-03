@@ -1,0 +1,10 @@
+.photo-grid__heart-button {
+    background-image: url(../../../images/heartSymbol.svg);
+    border: none;
+    width: 25px;
+    height: 19px;
+}
+
+.photo-grid__heart-button:hover {
+    opacity: 50%;
+}

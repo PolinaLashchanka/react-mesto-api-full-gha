@@ -1,0 +1,6 @@
+.photo-grid__caption {
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 25px 21px 25px;
+    justify-content: space-between;
+}

@@ -1,0 +1,14 @@
+@media screen and (min-width: 768px) {
+    .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 282px);
+        gap: 20px 17px;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .photo-grid {
+        grid-template-columns: repeat(3, 282px);
+    }
+}

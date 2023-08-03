@@ -1,0 +1,13 @@
+.photo-grid__card_delete-button {
+    background-image: url(../../../../images/deleteButton.svg);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 19px;
+    height: 20px;
+    border: none;
+}
+
+.photo-grid__card_delete-button:hover {
+    opacity: 60%;
+}

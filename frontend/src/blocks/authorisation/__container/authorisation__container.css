@@ -1,0 +1,7 @@
+.authorisation__container {
+    display: flex;
+    flex-direction: column;
+    width: 358px;
+    height: 100%;
+    align-items: center;
+}
