@@ -50,8 +50,8 @@ function App() {
   };
 
   function handleLogin(email) {
-    setLoggedIn(true);
     setUserEmail(email);
+    setLoggedIn(true);
   }
 
   function tokenCheck() {
@@ -69,6 +69,7 @@ function App() {
 
   function onSignOut() {
     localStorage.removeItem("jwt");
+    setCurrentUser({});
     setUserEmail("");
   }
 
@@ -82,7 +83,7 @@ function App() {
         setCurrentUser(user);
       })
       .catch(console.error);
-  }, []);
+  }, [loggedIn]);
 
   function handleCardLike(card) {
     const isLiked = card.likes.some((i) => i === currentUser._id);
@@ -159,6 +160,8 @@ function App() {
       .then((data) => {
         if (data.token) {
           localStorage.setItem("jwt", data.token);
+          const { token, ...rest } = data;
+          setCurrentUser(rest);
           handleLogin(email);
           navigate("/");
         }
